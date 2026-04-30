@@ -52,3 +52,20 @@ h1 {
 #texto-logo {
   font-size: 30px;
 }
+
+#menu {
+    background-color: rgb(59, 19, 215);
+    padding: 7px;
+    box-shadow: 5px 5px 15px 5px black;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(179, 169, 169);
+}
