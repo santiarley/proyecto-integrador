@@ -1,9 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 .mogra-regular {
   font-family: "Mogra", system-ui;
@@ -11,47 +10,45 @@
   font-style: normal;
 }
 
-
 h1 {
-    color: blueviolet;
+  color: blueviolet;
 }
 
-#imagen{
-    width: 250px;
-    border: 5px solid red;
-
+#imagen {
+  width: 250px;
+  border: 5px solid red;
 }
 
-#logo{
-    height: 150px;
-    width: 150px
+#logo {
+  height: 150px;
+  width: 150px;
 }
 
 .imagen_1 {
-border: 5px solid yellow;
-width: 500px;
+  border: 5px solid yellow;
+  width: 400px;
 }
 
-
-
-.menu>a{
-    color: red;
+.imagen_centrar {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
 }
 
-
-#fondo-cabeza{
-
-    width: 100%;
-    height: 400px;
-    background-color: aqua;
+.menu > a {
+  color: red;
 }
 
-#caja-logo{
-    padding-top: 100px;
-
+#fondo-cabeza {
+  width: 100%;
+  height: 400px;
+  background-color: lightsteelblue;
 }
 
-#texto-logo{
+#caja-logo {
+  padding-top: 100px;
+}
 
-
+#texto-logo {
+  font-size: 30px;
 }
