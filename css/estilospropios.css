@@ -14,14 +14,14 @@ h1 {
   color: blueviolet;
 }
 
-#imagen {
-  width: 250px;
-  border: 5px solid red;
-}
-
 #logo {
   height: 150px;
   width: 150px;
+}
+
+#imagen {
+  width: 250px;
+  border: 5px solid red;
 }
 
 .imagen_1 {
@@ -35,14 +35,11 @@ h1 {
   align-items: center; /* Centrado vertical */
 }
 
-.menu > a {
-  color: red;
-}
 
 #fondo-cabeza {
   width: 100%;
   height: 400px;
-  background-color: lightsteelblue;
+  background-color: rgb(49, 128, 197);
 }
 
 #caja-logo {
@@ -54,7 +51,7 @@ h1 {
 }
 
 #menu {
-    background-color: rgb(59, 19, 215);
+    background-color: rgb(65, 93, 215);
     padding: 7px;
     box-shadow: 5px 5px 15px 5px black;
 }
@@ -67,5 +64,41 @@ h1 {
 
 #menu a {
     text-decoration: none;
-    color: rgb(179, 169, 169);
+    color: rgb(255, 255, 255);
 }
+
+#seccion-1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#contenedor-video {
+  width: 50%;
+}
+
+#video-principal {
+  width: 80%;
+  height: 300px;
+  border-radius: 15px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 15px 5px black;
+}
+
+#texto-principal {
+  width: 50%;
+}
+
+#seccion-2 {  
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.serv{
+
+    margin: 10px;
+    
+}
+

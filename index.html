@@ -11,12 +11,6 @@
     <link rel="stylesheet" href="css/estilospropios.css" />
 </head>
 
-<style>
-    h1 {
-        color: red;
-    }
-</style>
-
 <body>
     <header>
         <div id="fondo-cabeza">
@@ -31,122 +25,177 @@
             </center>
         </div>
 
-         <nav id="menu">
+        <nav id="menu">
             <ul>
-               <li> <a href="">HTML</a> </li>
-               <li> <a href="">CSS</a> </li>
-               <li> <a href="">JAVA</a> </li>
-            </ul>        
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVA</a></li>
+            </ul>
         </nav>
-
-
     </header>
 
-   
+    <main>
+        <section id="seccion-1">
+            <div id="contenedor-video">
+                <!--esto es un video de youtube-->
+                <center>
+                    <iframe id="video-principal"
+                        src="https://www.youtube.com/embed/as1opL254NA?si=8tgPTGsKLrq38NDU" title="YouTube video player"
+                        frameborder="0" allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </center>
+            </div>
 
+            <div id="texto-principal">
+                <h1>Programacion</h1>
 
-    <h1 style="color: blue">Programacion</h1>
+                <h1>HTML y CSS</h1>
 
-    <h1 style="font-size: 50px; color: aquamarine">HTML y CSS</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
+                    necessitatibus ratione tempora, architecto velit, sequi modi iste
+                    omnis quia debitis eveniet magnam? Delectus dolores nihil voluptatum
+                    aut odit? Exercitationem, odit.
+                </p>
 
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla,
-        necessitatibus ratione tempora, architecto velit, sequi modi iste omnis
-        quia debitis eveniet magnam? Delectus dolores nihil voluptatum aut odit?
-        Exercitationem, odit.
-    </p>
-    <br />
-    <br />
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laboriosam
-        doloremque, fuga maxime suscipit, dicta quis sed omnis optio, voluptas
-        reprehenderit aliquid mollitia quo molestias provident adipisci eligendi
-        modi hic neque repellendus reiciendis soluta cum quos? Dolor, nulla
-        distinctio? Fuga, quod. Facere praesentium non impedit veniam reiciendis!
-        Maxime, iusto repellendus.0
-    </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam
+                    laboriosam doloremque, fuga maxime suscipit, dicta quis sed omnis
+                    optio, voluptas reprehenderit aliquid mollitia quo molestias
+                    provident adipisci eligendi modi hic neque repellendus reiciendis
+                    soluta cum quos? Dolor, nulla distinctio? Fuga, quod. Facere
+                    praesentium non impedit veniam reiciendis! Maxime, iusto
+                    repellendus.0
+                </p>
+            </div>
+        </section>
+
+        <section id="seccion-2">
+            <div class="serv"><img src="imagenes/LOGO_2.jpg" alt="imagen centro"></div>
+            <div class="serv"><img src="imagenes/LOGO_2.jpg" alt="imagen centro"></div>
+            <div class="serv"><img src="imagenes/LOGO_2.jpg" alt="imagen centro"></div>
+        </section>
+
+        <section id="section-3">
+            <div id="contenedor-formulario">
+                <form action="" method="">
+                    <label for="nombre1">Nombre:</label>
+                    <input type="text" name="nombre1" id="nombre1" />
+
+                    <br />
+
+                    <label for="identificacion1">Identificacion:</label>
+                    <input type="number" name="identificacion1" id="identificacion1" />
+
+                    <br />
+                    <label for="correoelectronico">Correo Electronico</label>
+                    <input type="email" name="correoelectronico" id="correoelectronico" />
+
+                    <br />
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña" />
+
+                    <br />
+                    <label for="genero">Genero</label>
+                    <br />
+
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" name="genero" id="Masculino" />
+
+                    <label for="Femenino">Femenino</label>
+                    <input type="radio" name="genero" id="Femenino" />
+
+                    <label for="otro">otro</label>
+                    <input type="radio" name="genero" id="otro" />
+
+                    <br />
+                    <label>¿que opina de la programacion?</label>
+                    <br />
+
+                    <textarea name="textopregunta" id="textopregunta" rows="10" cols="40s"></textarea>
+
+                    <br />
+                    <label for="pais">pais</label>
+                    <select name="pais" id="pais">
+                        <option value="0">SELECCIONE</option>
+                        <option value="1">Colombia</option>
+                        <option value="2">venezuela</option>
+                        <option value="3">peru</option>
+                    </select>
+
+                    <br />
+                    <input type="submit" value="Guardar Datos" />
+                </form>
+            </div>
+
+            <div id="contenedor-tabla">
+                <table align="center" border="1" width="500px" id="tabla1">
+                    <caption>
+                        Lenguajes de Programacion
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Lenguaje</th>
+                            <th>Item</th>
+                            <th>foto</th>
+                            <th>Codigo</th>
+                        </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <td rowspan="2">java</td>
+                            <td>1</td>
+                            <td><img src="imagenes/imagen_java.png" width="230px" /></td>
+                            <td>ciclos</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><img src="imagenes/java_2.jpg" width="230px" /></td>
+                            <td>Variables</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>IDE</td>
+                            <td colspan="2">
+                                <center>intellij IDEA</center>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
 
     <br />
     <section class="imagen_centrar">
-        <img src="imagenes/programacion1.jpg" alt="imagen" id="imagen" class="imagen_1" />
+        <img src="imagenes/programacion1.jpg" alt="imagen" id="imagen" />
     </section>
     <br />
 
     <section class="imagen_centrar">
-        <img src="imagenes/programacion2.jpg" alt="imagen" class="imagen_1" />
+        <img src="imagenes/programacion2.jpg" alt="imagen_1" class="imagen_1" />
     </section>
 
-    <!--el hr es una linea horizontal-->
-    <hr />
+    <footer>
+        <div id="contenedor-ubicacion"></div>
+        <div id="contenedor-redes">
+            <div></div>
+            <div></div>
+            <div></div>
 
-    <br />
-
-    <!--esto es un video de youtube-->
-    <iframe width="360" height="215" src="https://www.youtube.com/embed/as1opL254NA?si=8tgPTGsKLrq38NDU"
-        title="YouTube video player" frameborder="0" allow="
-        accelerometer;
-        autoplay;
-        clipboard-write;
-        encrypted-media;
-        gyroscope;
-        picture-in-picture;
-        web-share;
-      " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <table>
-        <caption></caption>
-        <thead></thead>
-        <tbody></tbody>
-    </table>
-
-    <form action="" method="">
-        <label for="nombre1">Nombre:</label>
-        <input type="text" name="nombre1" id="nombre1" />
-
-        <br />
-
-        <label for="identificacion1">Identificacion:</label>
-        <input type="number" name="identificacion1" id="identificacion1" />
-
-        <br />
-        <label for="correoelectronico">Correo Electronico</label>
-        <input type="email" name="correoelectronico" id="correoelectronico" />
-
-        <br />
-        <label for="contraseña">Contraseña:</label>
-        <input type="password" name="contraseña" id="contraseña" />
-
-        <br />
-        <label for="genero">Genero</label>
-        <br />
-
-        <label for="Masculino">Masculino</label>
-        <input type="radio" name="genero" id="Masculino" />
-
-        <label for="Femenino">Femenino</label>
-        <input type="radio" name="genero" id="Femenino" />
-
-        <label for="otro">otro</label>
-        <input type="radio" name="genero" id="otro" />
-
-        <br />
-        <label>¿que opina de la programacion?</label>
-        <br />
-
-        <textarea name="textopregunta" id="textopregunta" rows="10" cols="40s"></textarea>
-
-        <br />
-        <label for="pais">pais</label>
-        <select name="pais" id="pais">
-            <option value="0">SELECCIONE</option>
-            <option value="1">Colombia</option>
-            <option value="2">venezuela</option>
-            <option value="3">peru</option>
-        </select>
-
-        <br />
-        <input type="submit" value="Guardar Datos" />
-    </form>
+            <div>
+                <h3>cancion</h3>
+                <audio src="" controls></audio>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
